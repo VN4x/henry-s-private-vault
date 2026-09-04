@@ -11,7 +11,7 @@ export function SiteNav() {
         to="/"
         className="font-display text-2xl leading-none tracking-tight text-bone"
       >
-        henryperfumes
+        henry
       </Link>
 
       <nav className="hidden items-center gap-10 text-[11px] tracking-label text-bone-dim md:flex">
