@@ -87,7 +87,7 @@ function Vault() {
                     width={900}
                     height={1100}
                     loading="lazy"
-                    className={`max-h-64 w-auto object-contain transition-opacity duration-700 ${f.available ? "opacity-90 group-hover:opacity-100" : "opacity-40"}`}
+                    className={`max-h-64 w-auto object-contain mix-blend-screen transition-opacity duration-700 ${f.available ? "opacity-90 group-hover:opacity-100" : "opacity-40"}`}
                   />
                 </div>
 

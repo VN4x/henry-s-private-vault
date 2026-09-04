@@ -90,7 +90,7 @@ function Checkout() {
                     width={900}
                     height={1100}
                     loading="lazy"
-                    className="h-24 w-16 object-contain"
+                    className="h-24 w-16 object-contain mix-blend-screen"
                   />
                   <div className="flex-1">
                     <p className="text-[10px] tracking-label text-bone-dim">

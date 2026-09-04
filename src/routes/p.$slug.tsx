@@ -72,7 +72,7 @@ function Ceremony() {
           alt={`${f.name} by ${f.house} under a single overhead light`}
           width={900}
           height={1100}
-          className="fade-in mt-10 max-h-[52vh] w-auto object-contain"
+          className="fade-in mix-blend-screen mt-10 max-h-[52vh] w-auto object-contain"
         />
         <p className="mt-10 text-[10px] tracking-label text-bone-dim">
           {f.concentration} — {f.size}

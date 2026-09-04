@@ -97,7 +97,7 @@ function ViewingRoom() {
             alt={`${f.name} by ${f.house}, a faceted crystal flacon under a single overhead light`}
             width={1024}
             height={1280}
-            className="fade-in max-h-[74vh] w-auto object-contain"
+            className="fade-in mix-blend-screen max-h-[74vh] w-auto object-contain"
           />
         </section>
 
