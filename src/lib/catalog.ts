@@ -3,6 +3,9 @@ import bottle1 from "@/assets/bottle-1.jpg";
 import bottle2 from "@/assets/bottle-2.jpg";
 import bottle3 from "@/assets/bottle-3.jpg";
 import bottle4 from "@/assets/bottle-4.jpg";
+import lv1 from "@/assets/lv-1.jpg";
+import lv2 from "@/assets/lv-2.jpg";
+import lv3 from "@/assets/lv-3.jpg";
 
 export type Fragrance = {
   slug: string;
@@ -247,6 +250,82 @@ export const fragrances: Fragrance[] = [
     provenance: {
       batch: "Batch 30B — 55 bottles",
       bought: "Bought direct from the studio in Antwerp, February",
+      sealed: "Sealed",
+    },
+  },
+  {
+    slug: "lv-ombre-nocturne",
+    name: "Ombre Nocturne",
+    house: "Louis Vuitton",
+    size: "100 ml",
+    price: 249,
+    retail: 380,
+    image: lv1,
+    family: "Amber",
+    available: true,
+    concentration: "Eau de parfum",
+    sillage: "Wide, warm, patient",
+    notes: {
+      top: ["Saffron", "Black pepper"],
+      heart: ["Agarwood", "Rose"],
+      base: ["Amber", "Sandalwood", "Leather"],
+    },
+    henry:
+      "The house prices this the way houses of that size price things. I buy it direct and ask a hundred and thirty less. Same bottle, same batch code, same cellophane.",
+    provenance: {
+      batch: "Batch 41L — 18 bottles",
+      bought: "Bought direct from the maison in Paris, February",
+      sealed: "Factory sealed, cellophane intact, code on the base",
+    },
+  },
+  {
+    slug: "lv-imagination",
+    name: "Imagination",
+    house: "Louis Vuitton",
+    size: "100 ml",
+    price: 232,
+    retail: 355,
+    image: lv2,
+    family: "Clean",
+    available: true,
+    concentration: "Eau de parfum",
+    sillage: "Bright, then close",
+    notes: {
+      top: ["Calabrian bergamot", "Citron"],
+      heart: ["Black tea", "Ginger"],
+      base: ["Ambrox", "Guaiac wood"],
+    },
+    henry:
+      "Citrus and tea, done with better material than most. It is a daytime bottle and it does not pretend otherwise. Worth it at my price.",
+    provenance: {
+      batch: "Batch 38L — 22 bottles",
+      bought: "Bought direct from the maison in Paris, February",
+      sealed: "Factory sealed",
+    },
+  },
+  {
+    slug: "lv-attrape-reves",
+    name: "Attrape-Rêves",
+    house: "Louis Vuitton",
+    size: "100 ml",
+    price: 238,
+    retail: 360,
+    image: lv3,
+    family: "Floral",
+    available: false,
+    nextBatch: "May",
+    concentration: "Eau de parfum",
+    sillage: "Moderate, sweet at the edges",
+    notes: {
+      top: ["Peony", "Litchi"],
+      heart: ["Ylang-ylang", "Damask rose"],
+      base: ["Cocoa", "Patchouli"],
+    },
+    henry:
+      "Twelve bottles last time and they went to people who already knew what it was. Write to me if you want one from the May batch.",
+    provenance: {
+      batch: "Batch 27L — 12 bottles",
+      bought: "Bought direct from the maison in Paris, November",
       sealed: "Sealed",
     },
   },

@@ -24,7 +24,13 @@ export const Route = createFileRoute("/vault")({
   component: Vault,
 });
 
-const houses = ["All houses", "Maison Verrier", "Studio Nocturne", "Atelier Fivre"];
+const houses = [
+  "All houses",
+  "Louis Vuitton",
+  "Maison Verrier",
+  "Studio Nocturne",
+  "Atelier Fivre",
+];
 const families = ["All notes", "Amber", "Woody", "Floral", "Clean"];
 
 function Vault() {
