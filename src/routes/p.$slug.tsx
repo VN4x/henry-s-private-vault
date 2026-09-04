@@ -3,6 +3,7 @@ import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
 import { getFragrance, eur } from "@/lib/catalog";
 import { listStore } from "@/lib/list-store";
+import henryPortrait from "@/assets/henry.jpg";
 
 export const Route = createFileRoute("/p/$slug")({
   loader: ({ params }) => {
@@ -113,6 +114,12 @@ function Ceremony() {
       {/* Act III — Henry's note */}
       <section className="spotlight-soft px-6 py-32">
         <div className="mx-auto max-w-2xl">
+          <img
+            src={henryPortrait}
+            alt="Henry"
+            loading="lazy"
+            className="mb-10 h-20 w-20 rounded-full object-cover grayscale"
+          />
           <p className="text-[10px] tracking-label text-gold">My note</p>
           <p className="mt-10 font-display text-2xl font-light leading-relaxed text-bone md:text-3xl">
             {f.henry}

@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { useList, listStore } from "@/lib/list-store";
 import { getFragrance, eur } from "@/lib/catalog";
+import henryPortrait from "@/assets/henry.jpg";
 
 export const Route = createFileRoute("/checkout")({
   head: () => ({
@@ -36,6 +37,12 @@ function Checkout() {
     return (
       <div className="flex min-h-screen items-center justify-center spotlight px-6 text-center">
         <div className="fade-in">
+          <img
+            src={henryPortrait}
+            alt="Henry"
+            loading="lazy"
+            className="mx-auto mb-12 h-24 w-24 rounded-full object-cover grayscale"
+          />
           <p className="font-display text-4xl font-light text-bone md:text-5xl">
             Confirmed. Shipping tomorrow.
           </p>
