@@ -252,7 +252,7 @@ export const fragrances: Fragrance[] = [
   },
 ];
 
-export const featured = fragrances[0];
+export const featured: Fragrance = fragrances[0]!;
 
 export function getFragrance(slug: string) {
   return fragrances.find((f) => f.slug === slug);

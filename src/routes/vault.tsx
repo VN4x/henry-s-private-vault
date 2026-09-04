@@ -28,8 +28,8 @@ const houses = ["All houses", "Maison Verrier", "Studio Nocturne", "Atelier Fivr
 const families = ["All notes", "Amber", "Woody", "Floral", "Clean"];
 
 function Vault() {
-  const [house, setHouse] = useState(houses[0]);
-  const [family, setFamily] = useState(families[0]);
+  const [house, setHouse] = useState(houses[0]!);
+  const [family, setFamily] = useState(families[0]!);
   const [heldOnly, setHeldOnly] = useState(false);
 
   const shown = fragrances.filter(
